@@ -1,0 +1,21 @@
+# Directories #
+/build/
+/bin/
+target/
+
+*.class
+
+ 
+######################
+# Eclipse
+######################
+ 
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+.classpath
+.settings/
+.loadpath
