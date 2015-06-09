@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phones</title>
+</head>
+<body>
+
+<div th:each="p:${phones}">
+	<div>
+		<span th:text="${p.callNumber}"></span>
+		<span th:text="${p.usage}"></span>
+	</div>
+</div>
+
+<div>
+	<a href="peoples.html" th:href="@{/peoples}">HOME</a>
+</div>
+</body>
+</html>
